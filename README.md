@@ -40,7 +40,7 @@ To enhance the website's functionality and user experience, the following improv
 To view or modify the project locally:
 1. **Clone the Repository**: 
    ```bash
-   git clone https://github.com/your-username/f2-fitness-center.git
+   git clone https://github.com/your-username/fitness-web.git
    ```
 2. **Open the Website**: 
    - Navigate to the project directory.
