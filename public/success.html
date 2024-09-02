@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel ="stylesheet" href="css/bootstrap.min.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css'>
+    <link rel ="stylesheet" href="styleformini.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/emojionearea/3.4.2/emojionearea.min.css" />
+  </head>
+  <body >
+
+    <div id="scroll">
+      <span id = "sc">SCROLL&nbsp;&#x279C;</span>
+    </div>
+
+    <div id ="syo1" onmousewheel="changecoloragain()">
+  	<nav>
+  	<div id ="logo">
+  		<a onclick="home()"><img src="img/logo2.png" id="logo"></a>
+  	</div>
+  	<div>
+      <ul>
+        <li><a  id = "hh"  onclick="mhome()" style="text-decoration: none;"><div class="btn btn-one"><span>Home</span></div></a></li>
+        <li><a  id = "hh" onclick="service()" style="text-decoration: none;"><div class="btn btn-one"><span>Services</span></div></a></li>
+        <li><a  id = "hh" onclick="gosuccess()"style="text-decoration: none;"><div class="btn btn-one"><span>Success Story</span></div></a></li>
+        <li><a  id = "hh" onclick="goabout()" style="text-decoration: none;"><div class="btn btn-one"><span>About</span></div></a></li>
+        <li><a  id = "hh" onclick="gocontact()"  style="text-decoration: none;"><div class="btn btn-one"><span>Contact Us</span></div></a></li>
+        <li><a  id = "hh"  style="text-decoration: none;"><div class="btn" style="text-align:right"><span id ="cuname"></span></div></a></li>
+        <li id= "xx"style="width:50px;"><div class="btn " id="ad" style="margin-left:5px;"><span><img onclick="logout()" src="img/l.png"></span></div></a>
+      </li>
+	 </div>
+   <div id = "create">
+     <a  onclick="opencreate()"><img src="img/plus.png" alt="plus"> Create</a>
+    </div>
+
+
+    <div id = "fsucess">
+      <img src="img/r1.png" class="side" alt="plus">
+      <p class="texts"><b id = "sucessstory1">Jasper W.</b>
+<br><br>
+<br>
+Fantastic work and incredible progress from this one! Jasper had no prior experience with weight training and the gym and from 1 year of consistent training and nutrition, he gained 10kg of muscle mass!
+How has this changed his life? Jasper used to shop for kids size 13-years clothes because those were the only shirts that would fit him. Now he's wearing Men's size S and even those are getting a little tight now!
+He's made great strength increases too!<br>
+- Pull-ups from 0 to 10!<br>
+- Dumbbell Chest Press from 10kg to 32kg<br>
+- Incline Chest Press (machine) from 5kg to 60kg!<br>
+When you combine consistency, sound programming, and determination you can achieve great results! Keep it up, Jasper! This is only the beginning.<br><br>
+<input type="text" placeholder=" Comment" class= "comment" id = "co1"><button class ="senddesign" onclick ="savecomments1()" >Send</button>  </p>
+     </div>
+
+<div id = "fsucess" style="margin-top:90px;margin-left:7%;margin-right:2%;">
+       <img src="img/r2.png" class="side" alt="plus">
+       <p class="texts"><b id = "sucessstory2">Sophia K.</b>
+ <br><br>
+ <br>
+ Here’s Sophia toning her core and building her glutes! Over 8 weeks, Sophia gained 2.2kg, leaned out her abs, and is eating 700-800 calories more than when she started!<br><br>
+When we first started working with Sophia, she wasn’t eating much at all and we knew that if she wanted to get leaner she would need to increase her food - which we understand for some people this may be scary! She trusted her coaching, followed her training accordingly and her results started to come through!<br><br>
+ Her commitment and trust in the process is paying off. Some big things for this girl over the next couple of months. Great work Sophia and keep working hard towards your goals - you look incredible!<br><br>
+ <input type="text" placeholder=" Comment" class= "comment" id = "co2"><button class ="senddesign" onclick ="savecomments2()">Send</button>  </p>
+</div>
+
+<div id = "fsucess" style="margin-top:90px;margin-left:7%;margin-right:2%;">
+<img src="img/r3.png" class="side" alt="plus">
+<p class="texts" ><b id = "sucessstory3">Ramza S.</b>
+  <br><br>
+Awesome results from our client Ramza for losing 10kg for her engagement in 10 weeks! The amazing thing, of course, is the speed at which she lost 10kg in a healthy manner.<br>
+Ramza's time was very restricted: she was attending university classes, revising for the approaching exam period and coursework deadlines, she had engagement planning and family commitments which required her to fly out of the country twice for, and still further various miscellaneous tasks.<br>
+Despite all of this, she made the time to train and eat the right way to reach her fitness goals - the key to her fitness success. She knew her time was limited and she made the right choices and followed the program.<br>
+A big congratulations to your beautiful engagement, Ramza. Wishing you and your partner all the happiness in the world!<br><br>
+<input type="text" placeholder=" Comment" class= "comment" id = "co3"><button class ="senddesign" onclick ="savecomments3()">Send</button></p>
+</div>
+
+<div id = "fsucess" style="margin-top:90px;margin-left:7%;margin-right:2%;">
+<img src="img/r4.png" class="side" alt="plus">
+<p class="texts" ><b id = "sucessstory4">Doug F.</b>
+<br><br>
+   Here’s Doug putting on the pounds, building shape, and improving posture! Over 8 Week’s Doug was able to put on 3kg of pure muscle it really shows - an explosion of gains!   <br>
+   Doug wanted to get in shape for his holiday in Florida. His goal was to increase his upper body size and define his muscles. <br><br>
+   Doug stayed consistent with his training and nutrition and his work ethic is truly phenomenal. He was a full-time law student who also had a part-time job in a law firm. He, unfortunately, could only sleep 4 hours a night, but he was determined to turn his diet and training around and he produced incredible results!<br><br>
+   Doug, your drive and determination and work ethic is an inspiration. Keep up the great work!<br><br>
+   <input type="text" placeholder=" Comment" class= "comment" id = "co4"><button class ="senddesign" onclick ="savecomments4()">Send</button>  </p>
+</div>
+
+<div id = "fsucess" style="margin-top:90px;margin-left:7%;margin-right:2%;">
+          <img src="img/r5.png" class="side" alt="plus">
+          <p class="texts" ><b id = "sucessstory5">Alex S.</b>
+    <br><br>
+    <br>
+    Awesome Progress and great work! Alex wanted to lean down and get more muscular on his chest, shoulders, and arms.  In 4 months, Alex lost 6% body fat and achieved and achieved 10%, and was eating more food than when he started!<br><br>
+Alex was determined to reach his goals and even though he was a full-time law student and lived in catered accommodation with no control over what's been cooked. Alex committed and adjusted his portion sizes and food group distributions accordingly. If you are determined enough, you can make anything work.<br><br>
+Fantastic work ethic Alex, you've proved whatever your situation, you can achieve your goals!<br><br>
+<input type="text" placeholder=" Comment" class= "comment" id = "co5"><button class ="senddesign" onclick ="savecomments5()">Send</button>  </p>
+         </div>
+   </div>
+  <div class="row">
+      <div class="col-sm-9 col-md-6 col-lg-3">
+        <img src="img/logo2.png">
+        <h5>F2 FITNESS CENTER</h5>
+        <p>Our Purpose is To Substaniably Make Fitness & Sports the Mantra of More. </p>
+      </div>
+
+      <div class="col-sm-9 col-md-6 col-lg-2">
+        <h5 style="margin-top:30px; margin-left: 0;text-align: center">Explore</h5>
+        <ul style="text-align: center;margin-Top:10px;">
+          <li onclick="mhome()">Home</a></li>
+          <li onclick="gosuccess()">Success Story</a></li>
+          <li onclick="service()">Services</a></li>
+          <li onclick="gocontact()">Contact Us</a></li>
+          <li onclick="goabout()">About</a></li>
+        </ul>
+     </div>
+
+     <div class="col-sm-9 col-md-6 col-lg-2">
+       <h5 style="margin-top:30px; margin-left: 0;text-align: center">Hours Of Operation</h5>
+       <ul style="margin-Top:10px;">
+         <li>Mon-Thu: 9AM to 8PM</li>
+         <li>Friday: 9AM to 3PM</li>
+         <li>Sat-Sun: Closed</li>
+       </ul>
+       <h5 style="margin-top:30vh; margin-left: 0;text-align: center">Contact Us</h5>
+       <ul style="text-align: center;margin-Top:10px;">
+         <li onclick="">&#x2709;&nbsp;&nbsp;&nbsp;support@fitternity.com</a></li>
+         <li onclick="window.location.href='#.html'">&#x260F;&nbsp;&nbsp;&nbsp;022-6109-4444</a></li>
+       </ul>
+    </div>
+
+    <div class="col-sm-9 col-md-6 col-lg-5">
+      <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 500px">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.0912620894715!2d72.83422711490084!3d19.059724687097212!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c9126ede44bd%3A0x38b918c5f286928e!2sF2%20Fitness!5e0!3m2!1sen!2sin!4v1618841239580!5m2!1sen!2sin"
+         allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <div id = "co">
+    <hr>
+    <p>Copyright &#xa9; 2021 F2 Fitness Center India . Inc All rights Reserved.</p>
+    </div>
+
+
+    <div id = "createdialog">
+          <div id="modalOne" class="modal">
+         <div class="modal-content" style="left:9%;top:13%; height:87%;width:85%">
+           <a class="closex" onclick="closefunxe()">&times;</a>
+           <div class="container" style="margin:0px;padding:0px" >
+       <div class="row" >
+         <div class="col-sm">
+           <img  id="uploadPreview"  style="width:600px; height:600px;margin: 10px;padding: 0px; ">
+           <input type="file" id="uploadImage" multiple="false"accept="image/*" onchange="PreviewImage();"style="margin-left: 10px;" />
+         </div>
+         <div class="col-sm"style="margin:0px">
+               <H1 style=" font-family: 'Josefin Sans', sans-serif;color:#505050; margin-top:30px;">SUCCESS STORY &#9997; </H1>
+              <textarea name="txtArea"  id = "storymsg" placeholder="Story Start Here..." style=" padding-left:10px;padding-top: 10px;width:480px; height:530px;font-family: 'Poppins',sans-serif;weight:100;"></textarea>
+              <span id = "mainerror" ></span>
+         </div>
+       </div>
+     </div>
+<button  onclick ="onsuccessubmit()" >Submit</button>
+      </div>
+    </div>
+    </div>
+<script src="js/bootstrap.min.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-storage.js"></script>
+<script src="scriptx.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/emojionearea/3.4.2/emojionearea.min.js"></script>
+<script src='js/bootstrap.min.js'></script>
+  </body>
+</html>
