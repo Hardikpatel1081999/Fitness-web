@@ -1,0 +1,65 @@
+{
+  "database": {
+    "rules": "database.rules.json"
+  },
+  "firestore": {
+    "rules": "N",
+    "indexes": "firestore.indexes.json"
+  },
+  "hosting": {
+    "redirects":[
+      {
+        "source" : "/main",
+        "destination" : "/main.html",
+        "type":302
+      },
+      {
+        "source" : "/about",
+        "destination" : "/about.html",
+        "type":302
+      },
+      {
+        "source" : "/iabout",
+        "destination" : "/iabout.html",
+        "type":302
+      },
+       {
+          "source" : "/contact",
+          "destination" : "/contact.html",
+          "type":302
+        },
+        {
+          "source" : "/icontact",
+          "destination" : "/icontact.html",
+          "type":302
+        },
+        {
+           "source" : "/success",
+           "destination" : "/success.html",
+           "type":302
+         },
+         {
+           "source" : "/isuccess",
+           "destination" : "/isuccess.html",
+           "type":302
+         },
+         {
+           "source" : "/service",
+           "destination" : "/servicefirst.html",
+           "type":302
+         },
+         {
+           "source" : "/bookinglist",
+           "destination" : "/services.html",
+           "type":302
+         }
+
+    ],
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
